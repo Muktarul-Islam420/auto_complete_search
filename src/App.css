@@ -23,8 +23,8 @@
 
 input {
   padding: 10px;
-  height: 20px;
-  width: 500px;
+
+  width: auto;
   border: 1px solid purple;
   margin: 10px;
   font-size: 18px;
@@ -43,14 +43,14 @@ input {
   background-color: whitesmoke;
   right: 10px;
   top: 52px;
-  width: 520px;
+  width: auto;
 }
 
 .option {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 500px;
+  width: auto;
   padding: 5px;
 }
 
@@ -66,4 +66,10 @@ span {
 
 .flex-column {
   flex-direction: column;
+}
+
+input{
+  color: royalblue;
+  font-style: italic;
+  box-shadow: 10px 5px 5px rgba(0, 0, 1, 0.4);
 }

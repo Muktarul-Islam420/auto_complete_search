@@ -52,6 +52,7 @@ const Auto = () => {
         placeholder="Type to search"
         value={search}
         onChange={event => setSearch(event.target.value)}
+        aria-label="Search"
       />
       {display && (
         <div className="autoContainer">
@@ -79,8 +80,8 @@ const Auto = () => {
 function App() {
   return (
     <div className="App">
-      <h1>Custom AutoComplete React</h1>
-      <div className="logo"></div>
+      <h1 className="text-primary">Custom Auto complete Search</h1>
+     
       <div className="auto-container">
         <Auto />
       </div>
